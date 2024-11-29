@@ -11,6 +11,7 @@ db_config = {
     'database': 'mydatabase',
 }
 
+
 @app.route('/helloworld', methods=['GET'])
 def hello_world():
     return 'Hello World!'
